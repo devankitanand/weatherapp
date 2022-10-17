@@ -9,7 +9,7 @@ from tkinter import messagebox
 class Weather():
 
     def weather_report(self):
-
+        print("Weather report received")
         self.url = "http://api.openweathermap.org/data/2.5/weather?q="
         self.cityname = self.loc.get(1.0, END)
         self.api_key = '0d5311e3633f06a17b6028873e4d1a4c'
